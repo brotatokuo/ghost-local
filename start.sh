@@ -1,5 +1,8 @@
-cd ghost-local
-ghost start
+pwd
+cd current
+
+yarn install
+yarn dev
 
 # Ping every minute and log it
 while true; do
